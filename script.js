@@ -7,6 +7,7 @@ const genereteCard = () => {
       Authorization:
         "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OGNkMGNhYTZmMzAyMjAwMTUxMDgwY2EiLCJpYXQiOjE3NTgyNjg1ODYsImV4cCI6MTc1OTQ3ODE4Nn0.Rv8euIOCl_52Npr4jEhQo7qMseRjgWh9YvjxOMuq5w4",
     },
+    cache: "no-cache",
   })
     .then((response) => {
       console.log("response", response);
@@ -53,7 +54,7 @@ const genereteCard = () => {
         btnModifica.href = `backoffice.html?id=${cardNokia._id}`;
         btnModifica.id = "btnModifica";
         btnModifica.className = "btn btn-primary me-2";
-        btnModifica.textContent = "Crea";
+        btnModifica.textContent = "Modifica";
 
         //btn scopri
         const btnScopri = document.createElement("a");

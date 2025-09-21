@@ -14,7 +14,7 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-secondary">
       <div class="container">
-        <a class="navbar-brand" href="#">NokiaSHOP</a>
+        <a class="navbar-brand" href="/">NokiaSHOP</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" href="#">BACKOFFICE</a>
+              <a class="nav-link active" href="backoffice.html">BACKOFFICE</a>
             </li>
           </ul>
         </div>
@@ -37,7 +37,7 @@
     </nav>
     <div class="container mt-5">
       <form id="productForm">
-        <h1 class="text-center">Crea un nuovo prodotto</h1>
+        <h1 id="text" class="text-center">Crea un nuovo prodotto</h1>
         <div class="row">
           <div class="col">
             <input type="text" id="name" placeholder="Nome" required class="form-control mb-2" />
@@ -46,7 +46,7 @@
             <input type="text" id="brand" placeholder="Marca" required class="form-control mb-2" />
             <input type="url" id="imageUrl" placeholder="URL Immagine" required class="form-control mb-2" />
             <div>
-              <button type="submit" class="btn btn-success">Crea prodotto</button>
+              <!-- <button type="submit" id="btn" class="btn btn-success">Crea prodotto</button> -->
               <!-- <button type="button" id="resetBtn" class="btn btn-secondary">Reset</button>
               <button type="button" id="deleteBtn" class="btn btn-secondary">Elimina</button> -->
             </div>
