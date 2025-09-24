@@ -22,4 +22,7 @@ fetch(URL + productId, {
     document.getElementById("productName").textContent = data.name;
     document.getElementById("productDescription").textContent = data.description;
     document.getElementById("productPrice").textContent = `€ ${data.price}`;
+  })
+  .catch((err) => {
+    console.error(err);
   });

@@ -87,9 +87,6 @@ window.addEventListener("DOMContentLoaded", () => {
         document.getElementById("price").value = data.price;
         document.getElementById("brand").value = data.brand;
         document.getElementById("imageUrl").value = data.imageUrl;
-      })
-      .catch((err) => {
-        console.error(err);
       });
   }
 });
