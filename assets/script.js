@@ -33,9 +33,9 @@ const genereteCard = () => {
 
         //img
         const cardImg = document.createElement("img");
-        cardImg.className = "cardImg bd-placeholder-img card-img-top img-fluid card-img-top";
+        cardImg.className = "cardImg bd-placeholder-img card-img-top img-fluid card-img-top ";
         cardImg.src = cardNokia.imageUrl;
-        cardImg.style.width = "100%";
+        cardImg.style.width = "100px";
         cardImg.style.height = "150px";
         cardImg.style.objectFit = "cover";
         //card-body
